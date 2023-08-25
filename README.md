@@ -43,7 +43,7 @@ To install PHP on macOS, you'll need a set of packages [installed via homebrew](
 There's also a set of optional packages which enable additional extensions to be enabled:
 
 ```
-brew install gmp libsodium imagemagick
+brew install gmp libsodium imagemagick bison
 ```
 
 Note that the supported extension are not exhaustive, so you may need edit the `bin/install` script to support additional extension. Feel free to submit a PR for any missing extensions.
